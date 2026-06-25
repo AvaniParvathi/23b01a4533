@@ -11,9 +11,9 @@ import {
 } from "@mui/material";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 
-import { NotificationCard } from "../components/NotificationCard";
-import { NotificationFilter } from "../components/NotificationFilter";
-import { useNotifications } from "../hooks/useNotifications";
+import { NotificationCard } from "Campus-Evaluation-FE-main/notification-app-fe/src/hooks/useNotifications";
+import { NotificationFilter } from "Campus-Evaluation-FE-main/notification-app-fe/src/hooks/useNotifications";
+import { useNotifications } from "Campus-Evaluation-FE-main/notification-app-fe/src/hooks/useNotifications";
 
 export function NotificationsPage() {
   const [filter, setFilter] = useState();
